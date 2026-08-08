@@ -25,3 +25,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.btn-ghost-totc{
+  @apply btn shadow-none border border-white/30 bg-white/30 text-[#fffff] rounded-full w-[140] h-[40];
+}
