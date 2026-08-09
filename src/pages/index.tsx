@@ -4,6 +4,9 @@ import AllInOne from "@/Components/AllInOne";
 import WhatIsTOTC from "@/Components/WhatIsTOTC";
 import YouCanDoWithTOTC from "@/Components/YouCanDoWithTOTC";
 import OurFeatures from "@/Components/OurFeatures";
+import ExploreCourse from "@/Components/ExploreCourse";
+import Testimonials from "@/Components/Testimonials";
+import LatestNews from "@/Components/LatestNews";
 
 
 export default function Home() {
@@ -15,6 +18,9 @@ export default function Home() {
       <WhatIsTOTC />
       <YouCanDoWithTOTC />
       <OurFeatures />
+      <ExploreCourse />
+      <Testimonials />
+      <LatestNews />
     </>
   );
 }
