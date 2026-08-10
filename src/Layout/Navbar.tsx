@@ -12,7 +12,7 @@ const navLinks = [
   { name: "About Us", path: "/about-us" },
 ];
 
-const navbar = () => {
+const Navbar = () => {
   const Router = useRouter();
   return (
     <div className="flex justify-between items-center sticky top-0 z-50">
@@ -107,4 +107,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
