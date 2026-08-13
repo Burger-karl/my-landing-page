@@ -24,7 +24,7 @@ const AuthForm = ({ mode }: AuthFormProps) => {
   const router = useRouter()
   const isLogin = mode === 'login'
 
-  const image = isLogin ? '/images/login.png' : '/images/Register.png'
+  const image = isLogin ? '/images/Login.png' : '/images/Register.png'
 
   const {
     register,
@@ -60,7 +60,7 @@ const AuthForm = ({ mode }: AuthFormProps) => {
       <div className="mx-auto grid min-h-screen w-full max-w-[1440px] lg:grid-cols-2 lg:px-6 xl:px-10">
         {/* Left side image, hidden on mobile */}
         <div className="hidden p-6 lg:flex lg:items-center lg:justify-center lg:p-10">
-          <div className="relative h-[85vh] max-h-[760px] w-full overflow-hidden rounded-[32px] shadow-2xl">
+          <div className="relative h-[85vh] max-h-[760px] w-full overflow-hidden rounded-[32px] shadow-6xl">
             <Image
               src={image}
               alt="Students in a classroom"
@@ -70,9 +70,9 @@ const AuthForm = ({ mode }: AuthFormProps) => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
             <div className="absolute bottom-10 left-8 right-8 text-white">
-              <p className="text-3xl font-bold">Lorem Ipsum is simply</p>
-              <p className="text-2xl font-normal text-white/80">Lorem Ipsum is simply</p>
-            </div>
+              {/* <p className="text-3xl font-bold">Lorem Ipsum is simply</p>
+              <p className="text-2xl font-normal text-white/80">Lorem Ipsum is simply</p> */}
+            </div>  
           </div>
         </div>
 
