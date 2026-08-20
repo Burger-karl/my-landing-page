@@ -43,7 +43,7 @@ const LatestNews = () => {
   return (
     <section className="py-24 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-center font-heading font-extrabold text-3xl md:text-4xl text-[#2F327D]">
+        <h2 className="text-center font-heading font-semibold text-3xl md:text-4xl text-[#2F327D]">
           Lastest News and Resources
         </h2>
         <p className="mt-4 text-center text-[#5B5B5B] text-lg">

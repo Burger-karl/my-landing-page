@@ -35,7 +35,7 @@ const OurFeatures = () => {
             <span className="absolute -top-6 left-8 w-20 h-20 rounded-t-full bg-[#1FC8A9]/80 -z-10" />
             <span className="absolute top-4 left-32 size-4 rounded-full bg-[#29B6E8] -z-10" />
             <span
-              className="absolute rounded-full bg-[#4B4ACF] -z-10"
+              className="absolute rounded-full hidden bg-[#4B4ACF] -z-10"
               style={{ left: "80%", top: "95%", width: "28%", height: "47%" }}
             />
             <span

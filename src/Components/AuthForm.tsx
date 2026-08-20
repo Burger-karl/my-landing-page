@@ -24,7 +24,7 @@ const AuthForm = ({ mode }: AuthFormProps) => {
   const router = useRouter()
   const isLogin = mode === 'login'
 
-  const image = isLogin ? '/images/Login.png' : '/images/Register.png'
+  const image = isLogin ? 'images/Login.png' : '/images/Register.png'
 
   const {
     register,

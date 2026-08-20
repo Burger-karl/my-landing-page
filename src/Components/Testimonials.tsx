@@ -15,7 +15,7 @@ const Testimonials = () => {
             </span>
           </div>
 
-          <h2 className="mt-4 font-heading font-extrabold text-4xl md:text-5xl text-[#2F327D]">
+          <h2 className="mt-4 font-heading font-semibold text-4xl md:text-5xl text-[#2F327D]">
             What They Say?
           </h2>
 
