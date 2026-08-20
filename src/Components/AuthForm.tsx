@@ -24,7 +24,7 @@ const AuthForm = ({ mode }: AuthFormProps) => {
   const router = useRouter()
   const isLogin = mode === 'login'
 
-  const image = isLogin ? 'images/Login.png' : '/images/Register.png'
+  const image = isLogin ? 'https://res.cloudinary.com/dykhctgak/image/upload/v1787233040/Login_pokslq.png' : '/images/Register.png'
 
   const {
     register,
